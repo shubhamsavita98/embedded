@@ -1,8 +1,8 @@
 /******************************************************
-Description : External LED and Push Button interfacing.
-              External LED connected to PC1	and Push
-							button is connected to PC0 in external
-							PULL-UP configuration.
+Description: External LED and Push Button interfacing.
+              External LED connected to PC1 and Push
+	      button is connected to PC0 in external
+	      PULL-UP configuration.
 *******************************************************/
 
 #include <stm32l4xx.h>
@@ -45,7 +45,7 @@ int main(void){
 	configure_Button_pin();
 
 	while(1){
-		/*IDR gets cleared when clock is enable for Port C, therefore check the button pushed*/
+		/*IDR gets cleared when the clock is enabled for Port C, therefore check the button pushed*/
 		if((GPIOC->IDR & GPIO_IDR_ID0) == 0)
 			GPIOC->ODR |= (GPIO_ODR_OD1);
 		else
