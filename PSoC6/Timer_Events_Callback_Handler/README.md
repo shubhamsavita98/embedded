@@ -10,5 +10,5 @@
 
 ## Summary
 
-While CPU is busy checking Enter Key pressed, a periodic interrupt is triggered from the hardare timer on PSoC running at a freqency of 10KHz and a period of 20000. As soon as counter is elasped interrupt is triggered and LED is toggled. It uses up counter. Timer can be started and stopped using Enter Key from the keyboard. UART is enabled to read the key input and prints on the terminal.
+While the CPU is busy checking the Enter Key pressed, a periodic interrupt is triggered from the hardware timer on PSoC running at a frequency of 10KHz and a period of 20000. As soon as the counter is elapsed interrupt is triggered and LED is toggled. It uses up the counter. The timer can be started and stopped using the Enter Key from the keyboard. UART is enabled to read the key input and prints on the terminal.
 
