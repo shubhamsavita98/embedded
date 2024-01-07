@@ -1,0 +1,1 @@
+This folder contains all PSoC6 based projects.
