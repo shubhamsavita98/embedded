@@ -1,4 +1,4 @@
-# HAL: Utilizing Hardare Timer/Counter Interrupt functionality to control LED Toggling and polling of Enter key press check to pause and resume.
+# HAL: Utilizing Hardware Timer/Counter Interrupt functionality to control LED Toggling and polling of Enter key press check to pause and resume.
 
 ## This program implements below functionalities:
 
