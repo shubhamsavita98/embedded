@@ -1,1 +1,1 @@
-This folder contains all PSoC6 based projects.
+This repo contains all PSoC6 based projects.
