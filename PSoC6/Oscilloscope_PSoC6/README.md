@@ -1,5 +1,5 @@
 # Oscilloscope implementation using PSoC6
-Code for Basic Oscilloscope implementation; ADC and DMA HAL drivers are configured to sample input voltage and the sampled input voltage is displayed on the UART. Better Serial Plotter is used to control time/amplitude divisions, analysis and visualization of the waveforms.
+Basic Oscilloscope implementation; ADC and DMA HAL drivers are configured to sample input voltage and display on the UART. Better Serial Plotter is used to control time/amplitude divisions, analysis and visualization of the waveforms.
 
 ## Requirements
 
